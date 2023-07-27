@@ -19,4 +19,9 @@
 		SELECT * FROM SYS_USER WHERE USER_NAME = #{value}
 	</select>
 
+    <update id="updatePassword" parameterType="map">
+        UPDATE SYS_USER SET PASSWORD = #{newPassword}
+        WHERE USER_ID = #{userId} AND PASSWORD = #{password}
+    </update>
+
 </mapper>
