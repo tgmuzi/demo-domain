@@ -1,8 +1,8 @@
-package com.example.demo.modules.sys;
+package com.example.demo.modules.mapper.sys;
 
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.example.demo.modules.sys.entity.SysMenu;
+import com.example.demo.modules.entity.sys.entity.SysMenu;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.data.repository.query.Param;

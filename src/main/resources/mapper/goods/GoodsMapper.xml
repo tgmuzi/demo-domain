@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.demo.modules.goods.mapper.GoodsMapper">
+<mapper namespace="com.example.demo.modules.mapper.goods.mapper.GoodsMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.example.demo.modules.goods.entity.Goods">
+    <resultMap id="BaseResultMap" type="com.example.demo.modules.entity.goods.entity.Goods">
         <id column="goods_id" property="goodsId" />
         <result column="goods_name" property="goodsName" />
         <result column="price" property="price" />

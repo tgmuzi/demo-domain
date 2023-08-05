@@ -1,7 +1,7 @@
-package com.example.demo.modules.user;
+package com.example.demo.modules.mapper.user;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.example.demo.modules.user.entity.Customer;
+import com.example.demo.modules.entity.user.entity.Customer;
 import com.example.demo.utils.Encrypt;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;

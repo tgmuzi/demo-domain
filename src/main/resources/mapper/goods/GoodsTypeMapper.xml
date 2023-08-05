@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.demo.modules.goods.mapper.GoodsTypeMapper">
+<mapper namespace="com.example.demo.modules.mapper.goods.mapper.GoodsTypeMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.example.demo.modules.goods.entity.GoodsType">
+    <resultMap id="BaseResultMap" type="com.example.demo.modules.entity.goods.entity.GoodsType">
         <id column="Type_id" property="typeId" />
         <result column="type_name" property="typeName" />
         <result column="content" property="content" />

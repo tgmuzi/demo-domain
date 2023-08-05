@@ -1,7 +1,7 @@
-package com.example.demo.modules.goods.mapper;
+package com.example.demo.modules.mapper.goods.mapper;
 
 import com.baomidou.mybatisplus.mapper.BaseMapper;
-import com.example.demo.modules.goods.entity.GoodsType;
+import com.example.demo.modules.entity.goods.entity.GoodsType;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
